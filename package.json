@@ -1,0 +1,22 @@
+{
+  "name": "ourin-baileys-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper simplificado sobre ourin-baileys: misma funcionalidad, API más clara y organizada por módulos.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node examples/basic-bot.js"
+  },
+  "dependencies": {
+    "ourin-baileys": "^9.0.1",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "license": "MIT"
+}
